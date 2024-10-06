@@ -1,0 +1,52 @@
+$line-color: #e6cd9f;
+$line-shadow-color: transparentize(#e6cd9f, 0.5);
+
+$ui-line-color: #d8d8aa;
+$ui-element-border-color: #c4964a;
+
+$important-text-color: #ffcc66;
+
+$primary-font: 'GillSansMT', sans-serif;
+$fancy-font: 'Dauphin', sans-serif;
+$theme-font: 'Evanescent', sans-serif;
+
+$color-danger: #d22c00;
+$color-warning: #dabc00;
+$color-success: #17b622;
+$color-info: #45c0ff;
+
+
+// Element colors
+$elements: 'aether', 'air', 'darkness', 'death', 'earth', 'entropy', 'fire', 'gravity', 'life', 'light', 'time', 'water';
+$elementsEx: 'other', 'aether', 'air', 'darkness', 'death', 'earth', 'entropy', 'fire', 'gravity', 'life', 'light', 'time', 'water';
+
+
+$element-color-other: #c6b299;
+$element-color-aether: #02b698;
+$element-color-air: #45c0ff;
+$element-color-darkness: #3a3a3a;
+$element-color-death: #55319c;
+$element-color-earth: #974000;
+$element-color-entropy: #d558d5;
+$element-color-fire: #d22c00;
+$element-color-gravity: #ff780e;
+$element-color-life: #17b622;
+$element-color-light: #d9d9d6;
+$element-color-time: #dabc00;
+$element-color-water: #004ad6;
+
+$element-color: (
+        'other': $element-color-other,
+        'aether': $element-color-aether,
+        'air': $element-color-air,
+        'darkness': $element-color-darkness,
+        'death': $element-color-death,
+        'earth': $element-color-earth,
+        'entropy': $element-color-entropy,
+        'fire': $element-color-fire,
+        'gravity': $element-color-gravity,
+        'life': $element-color-life,
+        'light': $element-color-light,
+        'time': $element-color-time,
+        'water': $element-color-water
+);

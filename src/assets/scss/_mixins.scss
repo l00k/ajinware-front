@@ -1,0 +1,37 @@
+@import './_variables';
+
+@mixin text-shadow-sm($fColor: #ffffff, $sColor: #000000) {
+    text-shadow: 0 0 0 $fColor,
+    1px 1px 1px $sColor,
+    1px 0 2px $sColor,
+    0 1px 2px $sColor;
+}
+
+@mixin text-shadow-lg($fColor: #ffffff, $sColor: #000000) {
+    text-shadow: 0 0 0 $fColor,
+    1px 1px 1px $sColor,
+    1px 0 3px $sColor,
+    0 1px 3px $sColor,
+    0 0 5px $sColor;
+}
+
+
+@mixin scrollbar($scrollY: scroll, $scrollX : visible) {
+    overflow-x: $scrollX;
+    overflow-y: $scrollY;
+    
+    scrollbar-color: #ffdc7d rgba(0, 0, 0, 0.5);
+    scrollbar-width: thin;
+    
+    &::-webkit-scrollbar {
+        width: 3px;
+        height: 3px;
+    }
+    &::-webkit-scrollbar-track-piece {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    &::-webkit-scrollbar-thumb:vertical {
+        height: 30px;
+        background-color: #ffdc7d;
+    }
+}

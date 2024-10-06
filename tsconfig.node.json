@@ -1,0 +1,44 @@
+{
+    "extends": "@tsconfig/node20/tsconfig.json",
+    "include": [
+        "src/**/*",
+        "dev/**/*",
+        
+        "vite.config.*",
+        "vitest.config.*",
+        "cypress.config.*",
+        "nightwatch.conf.*",
+        "playwright.config.*"
+    ],
+    "compilerOptions": {
+        "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
+        "lib": [
+            "esnext",
+            "dom",
+            "dom.iterable"
+        ],
+        
+        "module": "ESNext",
+        "moduleResolution": "Bundler",
+        "composite": true,
+        
+        "esModuleInterop": true,
+
+        "strict": true,
+        "noImplicitAny": false,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "strictNullChecks": false,
+        "strictPropertyInitialization": false,
+        
+        "noEmit": true,
+        "types": [
+            "node"
+        ],
+
+        "baseUrl": ".",
+        "paths": {
+            "@/*": [ "./src/*" ]
+        }
+    }
+}

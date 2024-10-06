@@ -1,0 +1,27 @@
+{
+    "uiBar": {
+        "score": "Score",
+        "moves": "Moves",
+        "time": "Time"
+    },
+    "game": {
+        "won": "Won"
+    },
+    "menu": {
+        "gameLevel": {
+            "easy": "Easy",
+            "normal": "Medium",
+            "hard": "Hard",
+            "nightmare": "Nightmare"
+        },
+        "startGame": {
+            "title": "Start Game"
+        },
+        "history": {
+            "title": "History",
+            "empty": "No games played yet",
+            "moves": "Moves",
+            "elapsedTime": "Time"
+        }
+    }
+}

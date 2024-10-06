@@ -1,0 +1,27 @@
+{
+    "uiBar": {
+        "score": "Punkty",
+        "moves": "Ruchy",
+        "time": "Czas"
+    },
+    "game": {
+        "won": "Wygrana"
+    },
+    "menu": {
+        "gameLevel": {
+            "easy": "Łatwy",
+            "normal": "Średni",
+            "hard": "Trudny",
+            "nightmare": "Koszmar"
+        },
+        "startGame": {
+            "title": "Rozpocznij grę"
+        },
+        "history": {
+            "title": "Historia",
+            "empty": "Brak gier",
+            "moves": "Ruchy",
+            "time": "Czas"
+        }
+    }
+}
